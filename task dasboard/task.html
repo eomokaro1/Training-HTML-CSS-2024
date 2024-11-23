@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>Organix.</h1>
+      <ul class="menu">
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Calendar</li>
+        <li>Team Member</li>
+        <li>Analytics</li>
+        <li>Wallet</li>
+        <li class="active">Tasks</li>
+        <li>Mail</li>
+      </ul>
+    </aside>
+    <main class="main">
+      <header>
+        <h2>Tasks</h2>
+        <div class="actions">
+          <button>Add Task</button>
+          <input type="text" placeholder="Search...">
+        </div>
+      </header>
+      <div class="task-board">
+        <div class="task-column to-do">
+          <h3>To-Do</h3>
+          <div class="task">
+            <h4>Customer Journey Mapping</h4>
+            <p>Design</p>
+            <p>Medium Priority - 25 October</p>
+          </div>
+        </div>
+        <div class="task-column in-progress">
+          <h3>In Progress</h3>
+          <div class="task">
+            <h4>Database Customization</h4>
+            <p>Development</p>
+            <p>Medium Priority - 21 October</p>
+          </div>
+        </div>
+        <div class="task-column done">
+          <h3>Done</h3>
+          <div class="task">
+            <h4>Redesign WordPress Website</h4>
+            <p>Design</p>
+            <p>High Priority - 17 October</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+);
+.compontent-container
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+    letter-spacing: ;
+
+}
+
+.main-container
+*{
+    width:100% ;
+    height:auto ;
+}
+
+.infomation-container
+*{
+    width: 25;
+    height: auto;
+    
+}
